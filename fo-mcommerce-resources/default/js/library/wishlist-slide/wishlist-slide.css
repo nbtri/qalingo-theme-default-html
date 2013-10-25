@@ -1,0 +1,131 @@
+#featured{ 
+	width: 730px; 
+	height: 400px;
+	padding-right:250px; 
+	position:relative; 
+	overflow:hidden;
+	background:#fff;
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0;
+	left: 680px; 
+	width: 300px; 
+	height:400px;
+	list-style:none; 
+	padding:0; margin:0; 
+	overflow:auto;
+	overflow-x:hidden;
+	z-index: -1px;
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px;
+	line-height:18px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	width: 300px; 
+	height:90px;
+	display:block; 
+	text-decoration:none;
+	color:#333;
+	background:#fff; 
+	line-height:20px;
+	outline:none;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected, #featured li.ui-tabs-active{ 
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a, #featured ul.ui-tabs-nav li.ui-tabs-active a{ 
+	background:#ccc; 
+}
+
+#featured .ui-tabs-panel{ 
+	width: 640px;
+	height: 370px; 
+	background: #ffffff;
+	position:relative;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	bottom:0; 
+	left:0; 
+	width: 200px;
+	height: 400px;
+	padding-left: 10px;
+}
+
+#featured .ui-tabs-panel .product-image{ 
+	position:absolute; 
+	left: 150px; 
+}
+
+#featured .ui-tabs-panel .info a.hideshow{
+	position:absolute; 
+	font-size:11px; 
+	color:#f0f0f0; 
+	right:0px; 
+	bottom:0px; 
+	line-height:20px;
+	margin:0; 
+	outline:none; 
+	background:#333;
+}
+#featured .info h2{ 
+	font-size:1.2em; 
+	color:#fff; 
+	padding:5px; 
+	margin:0; 
+	font-weight:normal;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
+
+
+
+#featured .ui-widget-header {
+	background: none;
+}
+
+#featured .ui-state-default {
+	background: none;
+	border-width: 0px;
+}
+
+#featured .ui-widget-header {
+	border-width: 0px;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	padding: 0 0;
+}
+
+.ui-widget-content {
+	border-width: 0px;
+}
