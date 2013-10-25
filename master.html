@@ -187,41 +187,9 @@
 				
 
 		<link href="fo-mcommerce-resources/default/js/library/axe-carousel/axe-carousel.css" rel="stylesheet" type="text/css">
-		<script src="fo-mcommerce-resources/default/js/library/axe-carousel/axe-carousel.alpha.js" type="text/javascript"></script>
+		
 
-<script type="text/javascript">
-	$(document).ready(function(){
-		var data = [
-				{
-			  "content": "<div class='slide_inner'><img class='photo' src='' alt='Colombie i18n' /></div>",
-			  "content_button": "<div class='thumb'><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'><img src='' alt='Colombie i18n' width='80px' height='40px' /></a></div><p><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'>Colombie i18n</a></p>"
-		}
-						,
-							{
-			  "content": "<div class='slide_inner'><img class='photo' src='' alt='Brésil i18n' /></div>",
-			  "content_button": "<div class='thumb'><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'><img src='' alt='Brésil i18n' width='80px' height='40px' /></a></div><p><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'>Brésil i18n</a></p>"
-		}
-						,
-							];
 
-		 $("#content-axe-2").axeCarousel({
-            carousel_data: data,
-            carousel_outer_height: 500,
-            carousel_height: 400,
-            slide_height: 400,
-            carousel_outer_width: 1170,
-            slide_width: 1170,
-            transition_type: "fade",
-            transition_time: 600,
-            timer: 3000,
-            continuous_scrolling: true,
-            control_set_1: "numbered_buttons,previous_button,pause_button,next_button",
-            control_set_2: "content_buttons",
-            change_on_hover: "content_buttons"
-        });
-	});
-
-</script>
 <style>
 
 #multiple_slides_visible .previous_next_button {
@@ -352,7 +320,40 @@ box-shadow: 0px 0px 2px #dfdfdf; /* Opera 10.5, IE9, Chrome 10+ */
 <script src="fo-mcommerce-resources/default/js/library/jquery/jquery-1.8.2.js" type="text/javascript"></script>
 <script src="fo-mcommerce-resources/default/js/library/jquery-ui/js/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
 <script src="fo-mcommerce-resources/default/js/library/bootstrap/bootstrap.js" type="text/javascript"></script>
+<script src="fo-mcommerce-resources/default/js/library/axe-carousel/axe-carousel.alpha.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var data = [
+				{
+			  "content": "<div class='slide_inner'><img class='photo' src='' alt='Colombie i18n' /></div>",
+			  "content_button": "<div class='thumb'><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'><img src='' alt='Colombie i18n' width='80px' height='40px' /></a></div><p><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'>Colombie i18n</a></p>"
+		}
+						,
+							{
+			  "content": "<div class='slide_inner'><img class='photo' src='' alt='Brésil i18n' /></div>",
+			  "content_button": "<div class='thumb'><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'><img src='' alt='Brésil i18n' width='80px' height='40px' /></a></div><p><a href='${subProductCategory.productLineUrl}' alt='${productMarketing.name}'>Brésil i18n</a></p>"
+		}
+						,
+							];
 
+		 $("#content-axe-2").axeCarousel({
+            carousel_data: data,
+            carousel_outer_height: 500,
+            carousel_height: 400,
+            slide_height: 400,
+            carousel_outer_width: 1170,
+            slide_width: 1170,
+            transition_type: "fade",
+            transition_time: 600,
+            timer: 3000,
+            continuous_scrolling: true,
+            control_set_1: "numbered_buttons,previous_button,pause_button,next_button",
+            control_set_2: "content_buttons",
+            change_on_hover: "content_buttons"
+        });
+	});
+
+</script>
 		
 				
     </body>
